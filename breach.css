@@ -289,3 +289,40 @@ button {
         grid-template-columns: 2fr 1fr;
     }
 } 
+
+ 
+.footer-link{
+    margin-left: 40px;
+
+
+}
+.help{
+    color: rgb(66, 65, 65);
+    font-size: 15px;
+
+  
+}
+.help:hover{
+      text-decoration: none;
+      color: black
+}
+.terms{
+    margin-top: 50px;
+}
+@media (min-width: 900px){
+    .foot{
+        display: grid;
+        grid-template-columns: 2fr 1.5fr;
+    }
+    .footer-link{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0;
+    }
+    .terms{
+        margin-top: 0
+    }
+}
+.tabcontent{
+    display: none;
+}
