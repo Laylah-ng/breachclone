@@ -8,13 +8,16 @@ body {
 .top {
   padding-top: 40px;
   display: grid;
-  grid-template-columns: 2fr 1.5fr;
+  grid-template-columns: 2fr 0.5fr;
   justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
 }
+
 .link {
   color: #8311f9;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 2px;
 }
 .link:hover {
@@ -25,7 +28,7 @@ body {
   color: black;
   background-color: white;
   border: 1px solid grey;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .log:hover {
   color: #8311f9;
@@ -83,8 +86,10 @@ button {
   background-color: #8311f9;
   color: white;
   border: none;
-  margin-top: 25px;
   height: 65px;
+  margin-top: 30px;
+  
+ 
 }
 .joinbtn:hover {
   background-color: #7511f9;
@@ -93,7 +98,7 @@ button {
   padding-top: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
 }
 .find {
   font-weight: bold;
@@ -111,7 +116,8 @@ button {
     width: 100%;
   }
   .word {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
+    line-height: 50px;
   }
 }
 
@@ -120,11 +126,15 @@ button {
     display: grid;
     grid-template-columns: 1fr 2fr;
     overflow-x: hidden;
+       
+  }
+  .joinbtn{
+    width: 40%;
   }
   .sub {
     position: absolute;
     width: 480px;
-    left: 20px;
+    left: 85px;
     text-align: left;
   }
   .eye {
