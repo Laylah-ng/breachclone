@@ -173,10 +173,10 @@ button {
 #navbar {
   display: flex;
   column-gap: 50px;
-  padding-top: 10px;
+  padding-top: 15px;
   font-size: 1.8rem;
   padding-bottom: 50px;
-  height: 56px;
+  height: 52px;
   width: 65%;
   padding-left: 90px;
   background-color:white;
@@ -190,7 +190,9 @@ button {
   
 
 }
-
+.no{
+  border: none
+}
 .ft {
   height: 35px;
   border-bottom: 2px black solid;
