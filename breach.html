@@ -15,10 +15,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>breach landing page</title>
   </head>
+  
   <body>
     <div class="grey">
+      <div class='mid'>
       <header class="top">
         <a href="#" class="link">BREACH</a>
 
@@ -36,7 +39,9 @@
             Subscribe to your favourite creators and thinkers. Support work that
             matters
           </p>
+          <div class="joint">
            <button class="joinbtn">Join Breach</button>
+           </div>
         </div>
         <div class="eyecont">
           <img
@@ -48,28 +53,29 @@
        
       </div>
    </div>
+   </div>
 
     <nav id="navbar">
-      <div class="ft">
-        <a href="#" class="feat links">Featured</a>
+      <div>
+        <button class="feat tablinks"><a href="#Featured" class="">Featured</a></button>
       </div>
       <div>
-        <a href="#" class="pop links">Popular</a>
+        <button class="feat tablinks"><a href="#Popular">Popular</a></button>
       </div>
 
       <div>
-        <a href="#" class="Recent links">Recent</a>
+        <button class="feat tablinks"><a href="#Recent">Recent</a></button>
       </div>
     </nav>
 
-    <hr />
+  
 
     <main>
-        <div class="three">
+        <div id="Featured"  class="content">
 
         
             <div>
-      <section class="container-a">
+      <section class="container-a tabcontent">
         <article class="img-container">
           <img
             class="olami"
@@ -515,6 +521,20 @@
           navbar.classList.remove("sticky")
         }
       }
+
+      function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none"; 
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
     </script>
   </body>
 </html>

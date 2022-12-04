@@ -8,8 +8,8 @@ body {
 .top {
   padding-top: 40px;
   display: grid;
-  grid-template-columns: 2fr 0.5fr;
-  justify-content: space-between;
+  grid-template-columns: 2fr 0.6fr;
+  
   width: 90%;
   margin: 0 auto;
 }
@@ -19,6 +19,7 @@ body {
   font-weight: 900;
   font-size: 30px;
   letter-spacing: 2px;
+  padding-left: 5px;
 }
 .link:hover {
   text-decoration: none;
@@ -29,6 +30,7 @@ body {
   background-color: white;
   border: 1px solid grey;
   border-radius: 10px;
+  width: 80px;
 }
 .log:hover {
   color: #8311f9;
@@ -40,6 +42,7 @@ body {
   border-radius: 10px;
   border: none;
   margin-left: 10px;
+  width: 100px;
 }
 .join,
 .log {
@@ -102,6 +105,7 @@ button {
 }
 .find {
   font-weight: bold;
+  text-align: center;
 }
 
 .eye {
@@ -153,7 +157,7 @@ button {
   position: relative;
   top: 0;
   height: 800px;
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(250, 250, 250);
 }
 
 /* navbar */
@@ -163,17 +167,28 @@ button {
 .links:hover {
   text-decoration: none;
 }
-
+/* .content{
+  padding-left: 50px;
+} */
 #navbar {
   display: flex;
   column-gap: 50px;
-  padding-top: 50px;
+  padding-top: 10px;
   font-size: 1.8rem;
-  padding-bottom: 30px;
-  height: 65px;
-  width: 100%;
-  padding-left: 10px;
+  padding-bottom: 50px;
+  height: 56px;
+  width: 65%;
+  padding-left: 90px;
+  background-color:white;
+  border-bottom: 1px solid rgb(240, 237, 237);
+}
+.feat{
   background-color: white;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  
+
 }
 
 .ft {
@@ -181,9 +196,7 @@ button {
   border-bottom: 2px black solid;
 }
 
-.content {
-  padding: 16px;
-}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -191,7 +204,7 @@ button {
 }
 
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 102px;
 }
 
 .olami {
@@ -215,9 +228,7 @@ button {
   padding-top: 10px;
   padding-bottom: 50px;
 }
-/* .mirror{
-    
-} */
+
 .mirror,
 .glance {
   color: grey;
@@ -261,9 +272,7 @@ button {
   color: white;
   border: none;
 }
-/* .link-container{
-    margin: 20px 5px 20px 5px
-} */
+
 .button-container {
   
   row-gap: 40px;
@@ -271,12 +280,19 @@ button {
   display: flex;
   justify-content:left;
   flex-wrap:wrap;
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   padding-top: 15px;
   padding-bottom: 20px;
-  font-size: 11px;
+  font-size: 15px;
 }
+@media (min-width: 1200px) {
+.button-container{
+  column-gap: 40px
+}
+}
+
+
 .cat-container {
   width: 95%;
   margin: 0 auto;
@@ -284,12 +300,14 @@ button {
 
  @media (min-width: 1200px) {
     
-    .three{
+    .content{
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
 } 
-
+main{
+  margin-left: 70px;
+}
  
 .footer-link{
     margin-left: 40px;
