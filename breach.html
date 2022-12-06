@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link type="text/css" rel="stylesheet" href="breach.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>breach landing page</title>
-  </head>
-  
-  <body>
-    <div class="grey">
-      <div class='mid'>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="breach.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>breach landing page</title>
+</head>
+
+<body>
+  <div class="grey">
+    <div class='mid'>
       <header class="top">
         <a href="#" class="link">BREACH</a>
 
@@ -40,340 +34,322 @@
             matters
           </p>
           <div class="joint">
-           <button class="joinbtn">Join Breach</button>
-           </div>
+            <button class="joinbtn">Join Breach</button>
+          </div>
         </div>
         <div class="eyecont">
-          <img
-            class="eye"
-            src="https://breach.club/_next/image?url=%2Fassets%2Fhomepage_hero-image.png&w=640&q=100"
-          />
-          
+          <img class="eye" src="https://breach.club/_next/image?url=%2Fassets%2Fhomepage_hero-image.png&w=640&q=100" />
+
         </div>
-       
-      </div>
-   </div>
-   </div>
 
-    <nav id="navbar">
+      </div>
+    </div>
+  </div>
+
+  <nav id="navbar">
+    <div>
+      <button class="feat tablinks" onclick="openPage('Featured', this)">Featured</button>
+    </div>
+    <div>
+      <button class="feat tablinks no" onclick="openPage('Popular', this)">Popular</button>
+    </div>
+
+    <div>
+      <button class="feat tablinks no" onclick="openPage('Recent', this)">Recent</button>
+    </div>
+  </nav>
+
+
+
+  <main>
+
+    <div class="content">
+
+
       <div>
-        <button class="feat tablinks">Featured</button>
-      </div>
-      <div>
-        <button class="feat tablinks no">Popular</button>
-      </div>
+        <section class="container-a tabcontent">
+          <article class="img-container">
+            <img class="olami"
+              src="https://breach.club/_next/image?url=https%3A%2F%2Fbreach-production-file-upload.s3.eu-west-3.amazonaws.com%2Fposts%2F7a9f0024-34f7-404c-822a-b5a3acc0cb5f%2F20221116-181608-0000-png&w=640&q=100" />
+          </article>
+          <article class="text-a">
+            <a href="#" class="mirror">IN EVERY MIRROR, YOU ARE YOU</a>
+            <h4 class="big-text">🥇 Why are we discussing my weight?</h4>
+            <p class="glance">
+              We glance into the lives of four Nigerians, and their struggles with
+              meeting the beauty standards of size as defined by society.
+            </p>
+            <span>
+              <span>OLUWATUMININU</span>
+              <span>&#x2022;</span>
+              <span>NOV 16, 2022</span>
+            </span>
+          </article>
+        </section>
 
-      <div>
-        <button class="feat tablinks no">Recent</button>
-      </div>
-    </nav>
+        <section class="container-a">
+          <article class="img-container">
+            <img class="olami"
+              src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F10%2Fsc-Artboard-6.png&w=640&q=100" />
+          </article>
 
-  
+          <article class="text-a">
+            <a href="#" class="mirror">BREACH ANNOUNCEMENTS</a>
+            <h4 class="big-text">Breach 2.0: Become the writer of your dreams</h4>
+            <p class="glance">
+              Breach is bigger and better. Read, write, and connect with your
+              interests away from the noisy internet.
+            </p>
+            <span>
+              <span>ADETOMIWA</span>
+              <span>&#x2022;</span>
+              <span>OCT 24, 2022</span>
+            </span>
+          </article>
+        </section>
 
-    <main>
-        <div id="Featured"  class="content">
+        <section class="container-a">
+          <article class="img-container">
+            <img class="olami"
+              src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F10%2FFrame-2--6-.png&w=256&q=100" />
+          </article>
 
-        
-            <div>
-      <section class="container-a tabcontent">
-        <article class="img-container">
-          <img
-            class="olami"
-            src="https://breach.club/_next/image?url=https%3A%2F%2Fbreach-production-file-upload.s3.eu-west-3.amazonaws.com%2Fposts%2F7a9f0024-34f7-404c-822a-b5a3acc0cb5f%2F20221116-181608-0000-png&w=640&q=100"
-          />
-        </article>
-        <article class="text-a">
-          <a href="#" class="mirror">IN EVERY MIRROR, YOU ARE YOU</a>
-          <h4 class="big-text">🥇 Why are we discussing my weight?</h4>
-          <p class="glance">
-            We glance into the lives of four Nigerians, and their struggles with
-            meeting the beauty standards of size as defined by society.
-          </p>
-          <span>
-            <span>OLUWATUMININU</span>
-            <span>&#x2022;</span>
-            <span>NOV 16, 2022</span>
-          </span>
-        </article>
-      </section>
+          <article class="text-a">
+            <a href="#" class="mirror">LEVEL UP</a>
+            <h4 class="big-text">
+              How Dalu Akabogu turned a tough break into a series of big breaks
+            </h4>
+            <p class="glance">The marathon continues.</p>
+            <span>
+              <span>TOHEEB</span>
+              <span>&#x2022;</span>
+              <span>OCT 11, 2022</span>
+            </span>
+          </article>
+        </section>
 
-      <section class="container-a">
-        <article class="img-container">
-          <img
-            class="olami"
-            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F10%2Fsc-Artboard-6.png&w=640&q=100"
-          />
-        </article>
+        <section class="container-a">
+          <article class="img-container">
+            <img class="olami"
+              src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F10%2FscArtboard-36-blog.png&w=256&q=100" />
+          </article>
 
-        <article class="text-a">
-          <a href="#" class="mirror">BREACH ANNOUNCEMENTS</a>
-          <h4 class="big-text">Breach 2.0: Become the writer of your dreams</h4>
-          <p class="glance">
-            Breach is bigger and better. Read, write, and connect with your
-            interests away from the noisy internet.
-          </p>
-          <span>
-            <span>ADETOMIWA</span>
-            <span>&#x2022;</span>
-            <span>OCT 24, 2022</span>
-          </span>
-        </article>
-      </section>
+          <article class="text-a">
+            <a href="#" class="mirror">WORK IN PROGRESS</a>
+            <h4 class="big-text">
+              Money: How to be a rich woman in Nigeria
+            </h4>
+            <p class="glance">The fourth of a 6-part series on our relationship with money</p>
+            <span>
+              <span>ADETOMIWA</span>
+              <span>&#x2022;</span>
+              <span>OCT 7, 2022</span>
+            </span>
+          </article>
+        </section>
 
-      <section class="container-a">
-        <article class="img-container">
-          <img
-            class="olami"
-            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F10%2FFrame-2--6-.png&w=256&q=100"
-          />
-        </article>
 
-        <article class="text-a">
-          <a href="#" class="mirror">LEVEL UP</a>
-          <h4 class="big-text">
-            How Dalu Akabogu turned a tough break into a series of big breaks
-          </h4>
-          <p class="glance">The marathon continues.</p>
-          <span>
-            <span>TOHEEB</span>
-            <span>&#x2022;</span>
-            <span>OCT 11, 2022</span>
-          </span>
-        </article>
-      </section>
+        <section class="container-a">
+          <article class="img-container">
+            <img class="olami"
+              src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F09%2FwipArtboard-21-copy-22.26.25.png&w=256&q=100" />
+          </article>
 
-      <section class="container-a">
-        <article class="img-container">
-          <img
-            class="olami"
-            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F10%2FscArtboard-36-blog.png&w=256&q=100"
-          />
-        </article>
-
-        <article class="text-a">
-          <a href="#" class="mirror">WORK IN PROGRESS</a>
-          <h4 class="big-text">
-           Money: How to be a rich woman in Nigeria
-          </h4>
-          <p class="glance">The fourth of a 6-part series on our relationship with money</p>
-          <span>
-            <span>ADETOMIWA</span>
-            <span>&#x2022;</span>
-            <span>OCT 7, 2022</span>
-          </span>
-        </article>
-      </section>
-    
-
-      <section class="container-a">
-        <article class="img-container">
-          <img
-            class="olami"
-            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F09%2FwipArtboard-21-copy-22.26.25.png&w=256&q=100"
-          />
-        </article>
-
-        <article class="text-a">
-          <a href="#" class="mirror">WORK IN PROGRESS</a>
-          <h4 class="big-text">
-           On migration: What are parents losing when a child moves away?
-          </h4>
-          <p class="glance">The final past of a three-part series on Migration and Relationships.</p>
-          <span>
-            <span>ADETOMIWA</span>
-            <span>&#x2022;</span>
-            <span>SEP 2, 2022</span>
-          </span>
-        </article>
-      </section>
+          <article class="text-a">
+            <a href="#" class="mirror">WORK IN PROGRESS</a>
+            <h4 class="big-text">
+              On migration: What are parents losing when a child moves away?
+            </h4>
+            <p class="glance">The final past of a three-part series on Migration and Relationships.</p>
+            <span>
+              <span>ADETOMIWA</span>
+              <span>&#x2022;</span>
+              <span>SEP 2, 2022</span>
+            </span>
+          </article>
+        </section>
       </div>
 
-          <div>
-      <section class="cat-container">
-          <h2>Categories</h2>
-          <p class="glance" href="#">
-              Explore what matters to you
-          </p>
 
-      </section>
+      
       
 
+
+
       <div>
-      <section class="button-container">
-          <article class="link-container">
+        <section class="cat-container">
+          <h2>Categories</h2>
+          <p class="glance" href="#">
+            Explore what matters to you
+          </p>
+
+        </section>
+
+
+        <div>
+          <section class="button-container">
+
+            <article class="link-container">
               <a class="general" href="#">🌐 General</a>
-              </article>
-          
+            </article>
 
-              <article class="link-container">
+
+            <article class="link-container">
               <a class="general" href="#">📈 Business&Finances</a>
-              </article>
+            </article>
 
-               <article class="link-container">
+
+            <article class="link-container">
               <a class="general" href="#">🎥 Entertainment</a>
-               </article>
+            </article>
 
-              <article class="link-container">
+
+            <article class="link-container">
               <a class="general" href="#">🚀 Crypto</a>
-              </article>
-          
-              
+            </article>
 
-          
-              <article class="link-container">
-                  <a class="general" href="#">📱 Technology</a>
-              </article>
-          
-              
 
-              <article class="link-container">
+            <article class="link-container">
+              <a class="general" href="#">📱 Technology</a>
+            </article>
+
+
+            <article class="link-container">
               <a class="general" href="#">✊🏽 Politics & Actism</a>
-              </article>
-
-        
+            </article>
 
 
-               <article class="link-container">
+            <article class="link-container">
               <a class="general" href="#">🍕 Food & Drinks</a>
-               </article>
+            </article>
 
 
-               
-          
-              <article class="link-container">
-                  <a class="general" href="#">🏛 History</a>
-              </article>
-              
-          
-
-          
-              <article class="link-container">
-                  <a class="general" href="#">💄 fashion & beauty</a>
-              </article>
-          
-              
-
-          
-              <article class="link-container">
-                  <a class="general" href="#">🏀 Sports</a>
-              </article>
-          
-              
-
-          
-              <article class="link-container">
-                  <a class="general" href="#">✈️ Travel</a>
-              </article>
-          
+            <article class="link-container">
+              <a class="general" href="#">🏛 History</a>
+            </article>
 
 
-          
-              <article class="link-container">
-                  <a class="general" href="#">🏥 Health & Wellness</a class="general">
-              </article>
-          
-
-          
-              <article class="link-container">
-
-                <a class="general" href="#">🎨 Art & Illustration</a class="general">
-              </article>
-          
+            <article class="link-container">
+              <a class="general" href="#">💄 fashion & beauty</a>
+            </article>
 
 
-          
-              <article class="link-container">
-                  <a class="general" href="#">🗞 News</a class="general">
-              </article>
-          
+            <article class="link-container">
+              <a class="general" href="#">🏀 Sports</a>
+            </article>
 
-          
-              <article class="link-container">
-                  <a class="general" href="#">💡 Lifestyle</a class="general">
-              </article>
-          
 
-              
-          
-              <article class="link-container">
-                  <a class="general" href="#">🙏🏽 Faith & Spirituality</a class="general">
-              </article>
-          
+            <article class="link-container">
+              <a class="general" href="#">✈️ Travel</a>
+            </article>
 
-          
-              <article class="link-container">
-                  <a class="general" href="#">🤣 Humor</a class="general">
-              </article>
-          
 
-          
-              <article class="link-container">
-                  <a class="general" href="#">🧬 Sciences</a class="general">
-              </article>
-          
+            <article class="link-container">
+              <a class="general" href="#">🏥 Health & Wellness</a class="general">
+            </article>
 
-          
-              <article class="link-container">
-                  <a class="general" href="#">📚 Education</a class="general">
-              </article>
-          
 
-          
-              <article class="link-container">
-                  <a class="general" href="#">🎭 Fiction</a class="general">
-              </article>
-          
-              </section>
+            <article class="link-container">
 
-      </section>
-      </div>
+              <a class="general" href="#">🎨 Art & Illustration</a class="general">
+            </article>
+
+
+            <article class="link-container">
+              <a class="general" href="#">🗞 News</a class="general">
+            </article>
+
+
+            <article class="link-container">
+              <a class="general" href="#">💡 Lifestyle</a class="general">
+            </article>
+
+
+            <article class="link-container">
+              <a class="general" href="#">🙏🏽 Faith & Spirituality</a class="general">
+            </article>
+
+
+
+            <article class="link-container">
+              <a class="general" href="#">🤣 Humor</a class="general">
+            </article>
+
+
+
+            <article class="link-container">
+              <a class="general" href="#">🧬 Sciences</a class="general">
+            </article>
+
+
+
+            <article class="link-container">
+              <a class="general" href="#">📚 Education</a class="general">
+            </article>
+
+
+
+            <article class="link-container">
+              <a class="general" href="#">🎭 Fiction</a class="general">
+            </article>
+
+
+
+          </section>
+        </div>
 
       </div>
-      </div>
-    
-     
-         <div class="img-b content">
-            <section class="container-a">
+    </div>
+
+
+    <div class="img-b content">
+
+      <section class="container-a">
+
         <article class="img-container">
-          <img
-            class="olami"
-            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F08%2FWhatsApp-Image-2022-08-29-at-9.42.09-AM.jpeg&w=640&q=100"
-          />
+
+          <img class="olami"
+            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F08%2FWhatsApp-Image-2022-08-29-at-9.42.09-AM.jpeg&w=640&q=100" />
         </article>
 
         <article class="text-a">
+
           <a href="#" class="mirror">THE CRYPTOVERSE</a>
           <h4 class="big-text">
-           Why the Ethereum merge is the biggest event in crypto
+            Why the Ethereum merge is the biggest event in crypto
           </h4>
-          <p class="glance">Here's why the Ethereum merge is a big deal. Reasons to be hyped and reasons to be concerned.</p>
+          <p class="glance">Here's why the Ethereum merge is a big deal. Reasons to be hyped and reasons to be
+            concerned.</p>
           <span>
             <span>ADENIYI OLOWO</span>
             <span>&#x2022;</span>
             <span>AUG 29, 2022</span>
           </span>
+
         </article>
       </section>
-      </div>
-    
-    
-    
-     <div class="content">
-            <section class="container-a">
+
+    </div>
+
+
+
+    <div class="content">
+
+      <section class="container-a">
+
         <article class="img-container">
-          <img
-            class="olami"
-            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F07%2FcdArtboard-60.png&w=640&q=100"
-          />
+          <img class="olami"
+            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F07%2FcdArtboard-60.png&w=640&q=100" />
         </article>
 
         <article class="text-a">
           <a href="#" class="mirror">CRYPTO DIARIES</a>
           <h4 class="big-text">
-           "Take up space" and other career advice from women in crypto
+            "Take up space" and other career advice from women in crypto
           </h4>
           <p class="glance">
-              Women working in crypto share advice on breaking into the space and some of the best advice they got when they began their careers</p>
+            Women working in crypto share advice on breaking into the space and some of the best advice they got when
+            they began their careers</p>
           <span>
             <span>ADETOMIWA</span>
             <span>&#x2022;</span>
@@ -381,27 +357,29 @@
           </span>
         </article>
       </section>
-      </div>
+    </div>
 
 
 
 
 
-       <div class="content">
-            <section class="container-a">
+    <div class="content">
+
+      <section class="container-a">
+
         <article class="img-container">
-          <img
-            class="olami"
-            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F07%2F1_tk7tB5q6iSpEFnZg2u0MlQ.png&w=640&q=100"
-          />
+          <img class="olami"
+            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F07%2F1_tk7tB5q6iSpEFnZg2u0MlQ.png&w=640&q=100" />
         </article>
 
         <article class="text-a">
+
           <a href="#" class="mirror">BREACH BASICS</a>
           <h4 class="big-text">
-           How Crypto is revolutionizing the adult entertainment industry
+            How Crypto is revolutionizing the adult entertainment industry
           </h4>
-          <p class="glance">Who knew people could access porn with crypto? This episode explains how blockchain technology has impacted the porn industry</p>
+          <p class="glance">Who knew people could access porn with crypto? This episode explains how blockchain
+            technology has impacted the porn industry</p>
           <span>
             <span>ADENIYI OLOWO</span>
             <span>&#x2022;</span>
@@ -409,23 +387,23 @@
           </span>
         </article>
       </section>
-      </div>
+    </div>
 
 
 
-       <div class="content">
-            <section class="container-a">
+    <div class="content">
+
+      <section class="container-a">
+
         <article class="img-container">
-          <img
-            class="olami"
-            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F07%2Fitc21.png&w=640&q=100"
-          />
+          <img class="olami"
+            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F07%2Fitc21.png&w=640&q=100" />
         </article>
 
         <article class="text-a">
           <a href="#" class="mirror">THE CRYPTOVERSE</a>
           <h4 class="big-text">
-           Why the Ethereum merge is the biggest event in crypto
+            Why the Ethereum merge is the biggest event in crypto
           </h4>
           <p class="glance">One crypto-obsessed man's fall from grace.</p>
           <span>
@@ -435,25 +413,24 @@
           </span>
         </article>
       </section>
-      </div>
+    </div>
 
 
 
-       <div class="content">
-            <section class="container-a">
+    <div class="content">
+      <section class="container-a">
         <article class="img-container">
-          <img
-            class="olami"
-            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F07%2FRECAP.png&w=640&q=100"
-          />
+          <img class="olami"
+            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F07%2FRECAP.png&w=640&q=100" />
         </article>
 
         <article class="text-a">
           <a href="#" class="mirror">SCHOOLED BY BREACH</a>
           <h4 class="big-text">
-           People, crypto, and the fight for civil liberation
+            People, crypto, and the fight for civil liberation
           </h4>
-          <p class="glance">A recap of the first 3 episodes of the 5 part series on how people worldwide use crypto as a protest tool.</p>
+          <p class="glance">A recap of the first 3 episodes of the 5 part series on how people worldwide use crypto as a
+            protest tool.</p>
           <span>
             <span>ADETOMIWA I</span>
             <span>&#x2022;</span>
@@ -461,23 +438,21 @@
           </span>
         </article>
       </section>
-      </div>
+    </div>
 
 
 
 
-       <div class="content">
-            <section class="container-a">
+    <div class="content">
+      <section class="container-a">
         <article class="img-container">
-          <img
-            class="olami"
-            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F07%2FITC8.png&w=640&q=100"
-          />
+          <img class="olami"
+            src="https://breach.club/_next/image?url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fcreator-app-store.breach.club%2F2022%2F07%2FITC8.png&w=640&q=100" />
         </article>
 
         <article class="text-a">
           <a href="#" class="mirror">INTO THE CRYPTOVERSE</a>
-          
+
           <h4 class="big-text">Why does Ajebutter22 have 80% of his portfolio in crypto?</h4>
           <span>
             <span>TOHEEB</span>
@@ -486,55 +461,55 @@
           </span>
         </article>
       </section>
-      </div>
-      <hr>
-    
-    
-    
-    
-    
-    
-    
-    </main>
-    <footer class="foot">
-         <p><a href="#" class="link bre">BREACH</a></p>
+    </div>
 
-          <div class="footer-link">
-          <p class="terms"><a href="#" class="help">Help</a></p>
-          <p class="terms"><a href="#" class="help">Terms</a></p>
-         <p class="terms"><a href="#" class="help">Privacy Policy</a></p>
-         </div>
-      </footer>
+    <hr>
 
-    <script>
-      window.onscroll = function () {
-        myFunction()
+
+
+  </main>
+
+
+  <footer class="foot">
+    <p><a href="#" class="link bre">BREACH</a></p>
+
+    <div class="footer-link">
+      <p class="terms"><a href="#" class="help">Help</a></p>
+      <p class="terms"><a href="#" class="help">Terms</a></p>
+      <p class="terms"><a href="#" class="help">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script>
+    window.onscroll = function () {
+      myFunction()
+    }
+
+    var navbar = document.getElementById("navbar")
+    var sticky = navbar.offsetTop
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky")
       }
+    }
 
-      var navbar = document.getElementById("navbar")
-      var sticky = navbar.offsetTop
-
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          navbar.classList.add("sticky")
-        } else {
-          navbar.classList.remove("sticky")
-        }
+    function openPage(pageName, elmnt, color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
       }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+  </script>
+</body>
 
-      function openPage(pageName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none"; 
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-}
-    </script>
-  </body>
 </html>
